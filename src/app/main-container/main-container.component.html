@@ -1,6 +1,10 @@
-<div *ngIf='passenger'>
-    <app-passenger-info [passenger]="passenger">
-    </app-passenger-info>
-    <app-payment></app-payment>
-    <app-journey [route]="passenger.route"></app-journey>
+<div *ngIf='passenger' class="mainContainer">
+    <div class="upperContainer">
+        <app-passenger-info [passenger]="passenger">
+        </app-passenger-info>
+        <app-payment></app-payment>
+    </div>
+    <div class="lowerContainer">
+        <app-journey [route]="passenger.route"></app-journey>
+    </div>
 </div>

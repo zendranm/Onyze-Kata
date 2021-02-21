@@ -1,0 +1,33 @@
+.mainContainer {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  .lowerContainer {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 300px) {
+  .mainContainer {
+    width: auto;
+
+    .upperContainer {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  .mainContainer {
+    width: 680px;
+    .upperContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}

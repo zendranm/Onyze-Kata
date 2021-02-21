@@ -1,0 +1,15 @@
+.payment {
+  width: fit-content;
+}
+
+@media (min-width: 300px) {
+  .payment {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 700px) {
+  .payment {
+    margin: 0;
+  }
+}

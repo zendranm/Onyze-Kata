@@ -1,0 +1,15 @@
+.passengerInfo {
+  width: fit-content;
+}
+
+@media (min-width: 300px) {
+  .passengerInfo {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 700px) {
+  .passengerInfo {
+    margin: 0;
+  }
+}

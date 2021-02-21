@@ -12,10 +12,4 @@ export class PassengerInfoComponent implements OnInit {
   ngOnInit(): void {}
 
   @Input() passenger: Passenger;
-
-  photo = 'image';
-  interactions = 4;
-  email = 'duckandchick@gmail.com';
-  phone = '123 456 789';
-  location = 'New York, NY';
 }

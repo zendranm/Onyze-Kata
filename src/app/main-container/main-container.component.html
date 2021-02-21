@@ -1,3 +1,6 @@
-<p>main-container works!</p>
-<app-passenger-info [passenger]="passenger">
-</app-passenger-info>
+<div *ngIf='passenger'>
+    <app-passenger-info [passenger]="passenger">
+    </app-passenger-info>
+    <app-payment></app-payment>
+    <app-journey [route]="passenger.route"></app-journey>
+</div>

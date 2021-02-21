@@ -1,14 +1,15 @@
 <h2>PASSENGER INFO</h2>
+<div *ngIf='passenger'>
+    {{passenger.photo}}
+    {{passenger.name}}
+    {{passenger.interactions}}
 
-{{photo}}
-<div *ngIf='passenger'>{{passenger.name}}</div>
-{{interactions}}
+    <h3>EMAIL</h3>
+    {{passenger.email}}
 
-<h3>EMAIL</h3>
-{{email}}
+    <h3>PHONE</h3>
+    {{passenger.phone}}
 
-<h3>PHONE</h3>
-{{phone}}
-
-<h3>LOCATION</h3>
-{{location}}
+    <h3>LOCATION</h3>
+    {{passenger.location}}
+</div>

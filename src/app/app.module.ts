@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MainContainerComponent } from './main-container/main-container.component';
 import { PaymentComponent } from './payment/payment.component';
 import { PassengerInfoComponent } from './passenger-info/passenger-info.component';
+import { JourneyComponent } from './journey/journey.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { PassengerInfoComponent } from './passenger-info/passenger-info.componen
     MainContainerComponent,
     PaymentComponent,
     PassengerInfoComponent,
+    JourneyComponent,
   ],
   imports: [BrowserModule],
   providers: [],

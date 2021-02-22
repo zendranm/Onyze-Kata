@@ -19,7 +19,7 @@ export interface Passenger {
 
 export const Passengers: Array<Passenger> = [
   {
-    name: 'Chandler',
+    name: 'Chandler Bing',
     photo: 'assets/chandler.jpg',
     interactions: 4,
     email: 'duckandchick@gmail.com',
@@ -35,11 +35,11 @@ export const Passengers: Array<Passenger> = [
     },
   },
   {
-    name: 'Monica',
+    name: 'Monica Geller',
     photo: 'assets/monica.jpg',
-    interactions: 4,
+    interactions: 25,
     email: 'monana@gmail.com',
-    phone: '123 456 789',
+    phone: '456 789 123',
     location: 'New York, NY',
     route: {
       start: 'A',
@@ -51,11 +51,11 @@ export const Passengers: Array<Passenger> = [
     },
   },
   {
-    name: 'Joey',
+    name: 'Joey Tribbiani',
     photo: 'assets/joey.jpg',
-    interactions: 4,
+    interactions: 13,
     email: 'ilovepizza@gmail.com',
-    phone: '123 456 789',
+    phone: '987 654 321',
     location: 'New York, NY',
     route: {
       start: 'A',

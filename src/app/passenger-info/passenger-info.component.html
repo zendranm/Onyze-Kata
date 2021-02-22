@@ -1,8 +1,12 @@
 <div *ngIf='passenger' class="passengerInfo">
     <h2>PASSENGER INFO</h2>
-    <div><img src="{{passenger.photo}}"></div>
-    {{passenger.name}}
-    {{passenger.interactions}}
+    <div class="main">
+        <div class="photo"><img src="{{passenger.photo}}"></div>
+        <div class="namePart">
+            <div>{{passenger.name}}</div>
+            <div> {{passenger.interactions}} interactions</div>
+        </div>
+    </div>
 
     <h3>EMAIL</h3>
     {{passenger.email}}

@@ -2,7 +2,9 @@
     <div class="upperContainer">
         <app-passenger-info [passenger]="passenger">
         </app-passenger-info>
-        <app-payment></app-payment>
+        <div class="paymentContainer">
+            <app-payment></app-payment>
+        </div>
     </div>
     <div class="lowerContainer">
         <app-journey [route]="passenger.route"></app-journey>

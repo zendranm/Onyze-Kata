@@ -1,7 +1,24 @@
-<div *ngIf='route'>{{route.start}}
-    {{route.end}}
-    {{route.distance}}
-    {{route.time}}
-    {{route.price}}
-    {{route.energy}}
+<div *ngIf='route' class="mainContainer">
+    <div class="route">
+        <div class="start">
+            <div><img src="assets/scalableVectorGraphics/ok.svg"></div>
+            {{route.start}}
+        </div>
+        <div class="end">
+            <div><img src="assets/scalableVectorGraphics/pin.svg"></div>
+            {{route.end}}
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="details">
+        <div class="info">{{route.distance}}<h5>Distance</h5>
+        </div>
+        <div class="info">{{route.time}}<h5>Time</h5>
+        </div>
+        <div class="info">${{route.price}}<h5>Price</h5>
+        </div>
+        <div class="info">{{route.energy}}<h5>Energy</h5>
+        </div>
+    </div>
+
 </div>

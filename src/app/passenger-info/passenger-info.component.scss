@@ -17,11 +17,20 @@
       margin-right: 10px;
     }
 
-    .namePart {
+    .text {
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
       justify-content: space-evenly;
+
+      .name {
+        font-weight: 700;
+        font-size: 16px;
+      }
+
+      .interactions {
+        color: #b0b9c9;
+      }
     }
   }
 }

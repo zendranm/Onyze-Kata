@@ -17,6 +17,25 @@ export interface Passenger {
   route: Route;
 }
 
+export const Routes: Array<Route> = [
+  {
+    start: 'Jackson Heights',
+    end: 'Greenpoint',
+    distance: 123,
+    time: '42 min',
+    price: '78.12',
+    energy: '12.4 kWh',
+  },
+  {
+    start: 'Wrocalaw Main',
+    end: 'Barcelona Sants',
+    distance: 987,
+    time: '13 h',
+    price: '56.86',
+    energy: '38.9 kWh',
+  },
+];
+
 export const Passengers: Array<Passenger> = [
   {
     name: 'Chandler Bing',
@@ -25,14 +44,7 @@ export const Passengers: Array<Passenger> = [
     email: 'duckandchick@gmail.com',
     phone: '123 456 789',
     location: 'New York, NY',
-    route: {
-      start: 'Jackson Heights',
-      end: 'Greenpoint',
-      distance: 123,
-      time: '12h',
-      price: '100',
-      energy: '12.4 kWh',
-    },
+    route: Routes[1],
   },
   {
     name: 'Monica Geller',
@@ -41,14 +53,7 @@ export const Passengers: Array<Passenger> = [
     email: 'monana@gmail.com',
     phone: '456 789 123',
     location: 'New York, NY',
-    route: {
-      start: 'A',
-      end: 'B',
-      distance: 123,
-      time: '12h',
-      price: '100',
-      energy: '12.4 kWh',
-    },
+    route: Routes[0],
   },
   {
     name: 'Joey Tribbiani',
@@ -57,13 +62,6 @@ export const Passengers: Array<Passenger> = [
     email: 'ilovepizza@gmail.com',
     phone: '987 654 321',
     location: 'New York, NY',
-    route: {
-      start: 'A',
-      end: 'B',
-      distance: 123,
-      time: '12h',
-      price: '100',
-      energy: '12.4 kWh',
-    },
+    route: Routes[1],
   },
 ];

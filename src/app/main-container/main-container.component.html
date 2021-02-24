@@ -1,4 +1,16 @@
 <div *ngIf='passenger' class="mainContainer">
+    <div class="headerContainer">
+        <div>
+            <h5>PASSENGER INFO</h5>
+        </div>
+        <div class="switchContainer">
+            Hide information
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
     <div class="upperContainer">
         <app-passenger-info [passenger]="passenger">
         </app-passenger-info>
